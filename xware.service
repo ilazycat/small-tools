@@ -1,0 +1,13 @@
+[Unit]
+Description=Thunder xware
+After=network.target
+
+[Service]
+User=username
+Group=group
+Type=forking
+ExecStart=/path/to/xware/portal
+ExecStop=/path/to/xware/portal -s
+
+[Install]
+WantedBy=multi-user.target
