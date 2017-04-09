@@ -1,4 +1,15 @@
 #!/bin/sh
+# Configure tsinghua isatap ipv6 and nat on openwrt
+# all in one script.
+# Modify basic config and before you run this script
+# you have to mannually assign an IPv6 address for
+# your LAN interface. And choose
+#       Always announce default router
+# option on your lan IPv6 config.
+# Then run this script if everything is fine you can
+# add this to your rc.local so that it will config
+# IPv6 on router start.
+#
 # Made by LazyCat@iLazyCat
 #                 20170409
 
